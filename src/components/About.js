@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 import theme from "../components/UI/Theme";
 import {Typography} from "@mui/material";
@@ -36,9 +36,6 @@ export default function About () {
       </Typography>
     </Box>
 
-    <Button variant="contained" color="success">
-        Submit
-      </Button>
     </ThemeProvider>
 
   )

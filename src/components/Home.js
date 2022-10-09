@@ -19,13 +19,11 @@ export class Home extends Component {
     return (
       <div>
         <div>
-          <div className="container px-5 py-24 mx-auto flex flex-col">
-            <div className="lg:w-full mx-auto">
-              <div className="rounded-lg h-96 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="Home2.png" />
-              </div>
-            </div>
-          </div>
+        <div className='container md:mx-auto md:px-4'>
+            <div className="rounded-lg md:h-96  overflow-hidden">
+        <img alt="content" className="object-contain object-right h-full w-full" src="./Home2.png"/>
+      </div>
+      </div>
 
 
           <section className="text-gray-600 body-font">
