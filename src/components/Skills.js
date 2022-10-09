@@ -13,10 +13,10 @@ export default function Skills() {
     return (
       <>
       <Box sx={{textAlign:"center", margin: "30px auto"}}>
-      <Typography variant="h2">
+      <Typography variant="h3">
         Skills and Goals
       </Typography>
-      <Typography variant="h3"sx={{marginTop: "10px"}} >
+      <Typography variant="h4"sx={{marginTop: "10px"}} >
         Pivot to something great.
       </Typography>
       
